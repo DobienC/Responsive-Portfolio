@@ -115,70 +115,90 @@ img{
 }
 
 @media screen and (max-width: 960px){
-    p{
-        /* position: absolute; */
-        margin-top: 0px;
-        margin-left: 20px;
-        color: #777777;
-        float: left;
-        font-size: 15px;
-        line-height: 25px;
-        /* overflow: auto; */
-    }
-    img{
-        margin-right: 20px;
-        float: left;
-        height: 100px;
-        width: 150px;
-    }
-    
     .container{
         width: 500px;
-        height: 450px;
+        height: 700px;
         margin-left: 50px;
-        margin-right: 200px;
-        margin-top: 130px;
-        margin-bottom: 60px;
-        background-color: #ffffff;
-        position: relative;
     }
-    
-    .name{
-        float: left;
-        position: absolute;
+    .name{  
         margin-left: 50px;
-        margin-top: 10px;
-        background-color: #4aaaa5;
-        color: #ffffff;
     }
-    
     .directory{
-        position: absolute;
-        right: 0;
         margin-right:500px;
-        background-color:#ffffff;
     }
-    
     .rib{
-        position: relative;
-        right: 190px;
-        top: 60px;
-        height:30px;
-        width:150px;
-        margin: 0px 0px 0px 20px;
-        float: left;
-        background-color: #4aaaa5;
-        text-align: center;
-        color: #ffffff;
+        right: 20px;
+        top: -40px;
     }
-    
     .imgRow{
-        background-color: #ffffff;
         height: 100px;
         width: 400px;
         margin-top: 10px;
         margin-left: 20px;
     }
-
-
+}
+@media screen and (max-width: 768px){
+    .container{
+        width: 600px;
+        height: 700px;
+        margin-left: 50px;
+    }
+    .name{  
+        margin-left: 50px;
+    }
+    .directory{
+        margin-right:730px;
+    }
+    .rib{
+        right: 20px;
+        top: -40px;
+    }
+    .imgRow{
+        height: 100px;
+        width: 400px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 640px){
+    .rib{
+        right: 20px;
+        top: -40px;
+        width: 370px;
+    }
+    img{
+        width: 370px;
+        height: 300px;
+    }
+    .imgRow{
+        height: 200px;
+        width: 300px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .container{
+        width: 390px;
+        height: 750px;
+        margin-left: 0px;
+    }
+    .name{  
+        position: relative;
+        top: -50px;
+        width: 400px;
+        height: 70px;
+        margin-left: 0px;
+        margin-top:0px;
+        text-align: center;
+    }
+    .directory{
+        position: relative;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 70px;
+    }
+    .top{
+        width: 1000px;
+        height: 70px;
+        margin-top: 30px;
+    }
 }
